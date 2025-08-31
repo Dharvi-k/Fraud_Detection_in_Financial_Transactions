@@ -1,70 +1,62 @@
-## 🚀 Fraud Detection in Financial Transactions
-📌 Project Overview
+# 🚀 Fraud Detection in Financial Transactions
 
-Fraudulent transactions pose a significant risk to financial institutions, leading to revenue loss, reputational damage, and reduced customer trust. This project aims to develop a machine learning model that can proactively detect fraud in real-time transaction data.
-
-The dataset contains 6.3M+ rows and 10 columns, which will be analyzed, cleaned, and used to train a predictive model.
-
----
-🎯 Problem Statement
-
-The goal is to:
-
-* Identify fraudulent transactions with high accuracy.
-
-* Provide interpretable insights into key risk factors behind fraud.
-
-* Suggest preventive strategies that financial institutions can adopt.
+This project is a **Machine Learning web app** that detects fraudulent financial transactions.  
+It is built with **Python, Streamlit, and Scikit-Learn**, and deployed on **Streamlit Cloud**.
 
 ---
 
-🔑 Objectives
-
-* Data Cleaning & Preprocessing
-
-* Exploratory Data Analysis (EDA)
-
-* Feature Engineering & Selection
-
-* Model Development
-
-* Model Evaluation
-
-* Insights & Recommendations
-
-* Validation & Monitoring
+## 📌 Features
+- ✅ Data preprocessing and feature engineering pipeline  
+- ✅ Fraud detection model trained with machine learning  
+- ✅ Interactive Streamlit web app for predictions  
+- ✅ Simple & lightweight deployment  
 
 ---
-🛠️ Approach
 
-* Data Understanding – Explore dataset structure, imbalance, and data types.
-
-* Data Preprocessing – Handle missing values, outliers, encoding, and scaling.
-
-* EDA – Fraud vs. non-fraud comparison, amount distribution, time-series patterns.
-
-* Model Building – Train multiple ML models (Logistic Regression, Random Forest, XGBoost, etc.).
-
-* Evaluation – Use Recall, Precision, F1-score, ROC-AUC, Confusion Matrix.
-
-* Interpretation – Identify key predictors of fraud.
-
-* Action Plan – Recommend fraud-prevention measures and monitoring strategies.
+## 🛠️ Tech Stack
+- Python 3.9+
+- Pandas
+- Scikit-learn
+- Joblib
+- Streamlit
 
 ---
-📊 Tools & Technologies
 
-* Python: Pandas, NumPy, Scikit-learn, XGBoost, LightGBM
-
-* Visualization: Matplotlib, Seaborn
-
-* Notebooks: Jupyter/Google Colab
+## 📂 Project Structure
+fraud_detection_in_financial_transactions/
+│── fraud.py # Streamlit app
+│── fraud_detection_pipeline.pkl # Trained ML model
+│── requirements.txt # Dependencies
+│── README.md # Project documentation
 
 ---
-📈 Expected Outcomes
 
-* A fraud detection model with strong recall and precision.
+## Install dependencies:
 
-* Clear identification of factors influencing fraudulent behavior.
+pip install -r requirements.txt
 
-* Actionable recommendations for financial institutions.
+
+Run the Streamlit app:
+
+streamlit run fraud.py
+
+---
+
+## 🌐 Deployment
+
+The app is deployed on Streamlit Cloud.
+
+---
+
+## 📊 Model Details
+
+The model is trained on financial transaction data
+
+A preprocessing pipeline handles scaling & encoding
+
+Final model is saved as fraud_detection_pipeline.pkl using joblib
+
+---
+## 📸 Demo Screenshot
+
+<img width="1919" height="874" alt="image" src="https://github.com/user-attachments/assets/8d96e1f1-9492-4a3e-9e1b-40264e91a342" />
